@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		362563951FDEA687009096D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563941FDEA687009096D5 /* AppDelegate.swift */; };
-		362563971FDEA687009096D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563961FDEA687009096D5 /* ViewController.swift */; };
+		362563971FDEA687009096D5 /* VaultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563961FDEA687009096D5 /* VaultsController.swift */; };
 		3625639A1FDEA687009096D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362563981FDEA687009096D5 /* Main.storyboard */; };
 		3625639D1FDEA687009096D5 /* CoreDataSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3625639B1FDEA687009096D5 /* CoreDataSample.xcdatamodeld */; };
 		3625639F1FDEA688009096D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3625639E1FDEA688009096D5 /* Assets.xcassets */; };
 		362563A21FDEA688009096D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362563A01FDEA688009096D5 /* LaunchScreen.storyboard */; };
+		362563AB1FDEA6D3009096D5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563AA1FDEA6D3009096D5 /* CoreDataStack.swift */; };
+		362563CD1FDEBBD9009096D5 /* MembersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563CC1FDEBBD9009096D5 /* MembersController.swift */; };
+		362563CF1FDEC136009096D5 /* NewVaultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563CE1FDEC136009096D5 /* NewVaultController.swift */; };
+		362563D81FDF0510009096D5 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563D41FDF050F009096D5 /* User+CoreDataProperties.swift */; };
+		362563D91FDF0510009096D5 /* Vault+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563D51FDF050F009096D5 /* Vault+CoreDataClass.swift */; };
+		362563DA1FDF0510009096D5 /* Vault+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563D61FDF050F009096D5 /* Vault+CoreDataProperties.swift */; };
+		362563DB1FDF0510009096D5 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362563D71FDF0510009096D5 /* User+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		362563911FDEA687009096D5 /* CoreDataSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		362563941FDEA687009096D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		362563961FDEA687009096D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		362563961FDEA687009096D5 /* VaultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultsController.swift; sourceTree = "<group>"; };
 		362563991FDEA687009096D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3625639C1FDEA687009096D5 /* CoreDataSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataSample.xcdatamodel; sourceTree = "<group>"; };
 		3625639E1FDEA688009096D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		362563A11FDEA688009096D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		362563A31FDEA688009096D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362563AA1FDEA6D3009096D5 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		362563CC1FDEBBD9009096D5 /* MembersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersController.swift; sourceTree = "<group>"; };
+		362563CE1FDEC136009096D5 /* NewVaultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVaultController.swift; sourceTree = "<group>"; };
+		362563D41FDF050F009096D5 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		362563D51FDF050F009096D5 /* Vault+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vault+CoreDataClass.swift"; sourceTree = "<group>"; };
+		362563D61FDF050F009096D5 /* Vault+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vault+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		362563D71FDF0510009096D5 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				362563941FDEA687009096D5 /* AppDelegate.swift */,
-				362563961FDEA687009096D5 /* ViewController.swift */,
+				362563961FDEA687009096D5 /* VaultsController.swift */,
+				362563CC1FDEBBD9009096D5 /* MembersController.swift */,
+				362563CE1FDEC136009096D5 /* NewVaultController.swift */,
+				362563AA1FDEA6D3009096D5 /* CoreDataStack.swift */,
+				362563A91FDEA6BE009096D5 /* CoreDataModels */,
 				362563981FDEA687009096D5 /* Main.storyboard */,
 				3625639E1FDEA688009096D5 /* Assets.xcassets */,
 				362563A01FDEA688009096D5 /* LaunchScreen.storyboard */,
@@ -65,6 +83,17 @@
 				3625639B1FDEA687009096D5 /* CoreDataSample.xcdatamodeld */,
 			);
 			path = CoreDataSample;
+			sourceTree = "<group>";
+		};
+		362563A91FDEA6BE009096D5 /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				362563D71FDF0510009096D5 /* User+CoreDataClass.swift */,
+				362563D41FDF050F009096D5 /* User+CoreDataProperties.swift */,
+				362563D51FDF050F009096D5 /* Vault+CoreDataClass.swift */,
+				362563D61FDF050F009096D5 /* Vault+CoreDataProperties.swift */,
+			);
+			path = CoreDataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362563971FDEA687009096D5 /* ViewController.swift in Sources */,
+				362563CF1FDEC136009096D5 /* NewVaultController.swift in Sources */,
+				362563971FDEA687009096D5 /* VaultsController.swift in Sources */,
 				3625639D1FDEA687009096D5 /* CoreDataSample.xcdatamodeld in Sources */,
+				362563D81FDF0510009096D5 /* User+CoreDataProperties.swift in Sources */,
+				362563DB1FDF0510009096D5 /* User+CoreDataClass.swift in Sources */,
+				362563D91FDF0510009096D5 /* Vault+CoreDataClass.swift in Sources */,
 				362563951FDEA687009096D5 /* AppDelegate.swift in Sources */,
+				362563CD1FDEBBD9009096D5 /* MembersController.swift in Sources */,
+				362563AB1FDEA6D3009096D5 /* CoreDataStack.swift in Sources */,
+				362563DA1FDF0510009096D5 /* Vault+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +257,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -270,6 +307,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -278,13 +316,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4837RD9XEY;
 				INFOPLIST_FILE = CoreDataSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CoreDataSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visionreached.humm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -293,13 +333,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4837RD9XEY;
 				INFOPLIST_FILE = CoreDataSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CoreDataSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visionreached.humm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
